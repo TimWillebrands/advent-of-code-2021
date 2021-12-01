@@ -9,4 +9,4 @@ fsi.CommandLineArgs
         (newAcc, current)) 
         (0, 0)
     |> (fun (acc,_) -> acc )
-    |> printf "Hallo %i" 
+    |> printf "%i" 
