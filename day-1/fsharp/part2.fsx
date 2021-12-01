@@ -1,6 +1,8 @@
 fsi.CommandLineArgs 
     |> Array.tail
     |> Array.map int
+    |> Array.windowed 3
+    |> Array.map (fun arr -> arr |> Array.reduce (+))
     |> Array.fold (fun (acc, prev) current -> 
         let newAcc = 
             match current > prev with 
