@@ -1,9 +1,3 @@
-// const movement = Deno.args[0]
-//     .split('\n')
-//     .reduce((agg, current) => current.forEach, [0,0,0,0,0,0,0,0,0,0,0,0])
-
-// console.log(movement[0] * movement[1])
-
 const meestVoorkomend = [...Deno.args[0]]
     .filter(char => char === '1' || char === '0')
     .map(char => Number.parseInt(char))
@@ -11,4 +5,7 @@ const meestVoorkomend = [...Deno.args[0]]
     .map(totals => totals > 500 ? '1' : '0')
     .join('')
 
-console.log(meestVoorkomend)
+const gamma = Number.parseInt(meestVoorkomend, 2);
+const epsil = (~Number.parseInt(meestVoorkomend, 2)) ^ 4294963200
+
+console.log(meestVoorkomend, gamma, epsil, gamma * epsil)
