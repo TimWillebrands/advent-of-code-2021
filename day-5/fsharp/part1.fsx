@@ -48,7 +48,6 @@ let addToInt =
     
 
 let drawLineInGrid (grid:Map<Pos,int>) (line:Line) =
-    printfn "start pos: %i,%i -> %i,%i" line.From.X line.From.Y line.To.X line.To.Y
     match line.From.X = line.To.X || line.From.Y = line.To.Y with
     | false -> grid
     | true ->
@@ -61,15 +60,17 @@ let drawLineInGrid (grid:Map<Pos,int>) (line:Line) =
 
 let finalGrid = lines |> Seq.fold drawLineInGrid grid
 
-let positionsToString positions =
-    positions 
-        |> Seq.map snd  
-        |> Seq.map string
-        |> String.concat " "
+// let drawGrid = 
+//     let positionsToString positions =
+//         positions 
+//             |> Seq.map snd  
+//             |> Seq.map string
+//             |> String.concat " "
 
-finalGrid
-    |> Map.toSeq
-    |> Seq.groupBy (fun (pos, _) -> pos.Y)
-    |> Seq.iter (fun (_ , positions ) -> printfn "%s" (positionsToString positions))
+//     finalGrid
+//         |> Map.toSeq
+//         |> Seq.groupBy (fun (pos, _) -> pos.Y)
+//         |> Seq.iter (fun (_ , positions ) -> printfn "%s" (positionsToString positions))
+
 
 printfn "\nTotal collisions: %i" (finalGrid |> Map.filter (fun _ hits -> hits > 1) |> Map.count)
