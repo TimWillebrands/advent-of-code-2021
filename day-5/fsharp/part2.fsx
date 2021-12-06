@@ -58,7 +58,6 @@ let isDiagonal pos1 pos2 =
     let pos4 = {X=pos2.X; Y=pos1.Y}
     let d1 = distance pos1 pos4
     let d4 = distance pos3 pos1
-
     d1 = d4
 
 let drawLineInGrid (grid:Map<Pos,int>) (line:Line) =
