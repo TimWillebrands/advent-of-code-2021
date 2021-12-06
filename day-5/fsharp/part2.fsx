@@ -24,17 +24,15 @@ let lines =
         |> formPairs
         |> Seq.map (fun (from, dest) -> {From=from;To=dest})
 
-let (maxX, maxY) = 
+let grid = 
     lines
         |> Seq.map (fun line -> [line.From; line.To] )
         |> Seq.concat 
         |> Seq.fold 
             (fun acc line -> (max (fst acc) line.X, max (snd acc) line.Y )) 
             (0,0) 
-
-let initGridVal = seq { for x in 0..maxX do for y in 0..maxY -> ({X=x;Y=y}, 0) }
-
-let grid = Map initGridVal
+        |> (fun (maxX, maxY) -> seq { for x in 0..maxX do for y in 0..maxY -> ({X=x;Y=y}, 0) })
+        |> Map
 
 let (..) a b =
     if a < b then seq { a .. b }
