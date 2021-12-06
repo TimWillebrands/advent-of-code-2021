@@ -47,26 +47,23 @@ let addToInt =
         | None -> None)
 
 let pow2 = (fun a -> pown (float a) 2)
+
 let distance = 
     (fun p1 p2 -> sqrt (pow2 (p2.X - p1.X) + pow2 (p2.Y - p1.Y)))
 
 let isStreight pos1 pos2 = pos1.X = pos2.X || pos1.Y = pos2.Y
+
 let isDiagonal pos1 pos2 = 
     let pos3 = {X=pos1.X; Y=pos2.Y}
     let pos4 = {X=pos2.X; Y=pos1.Y}
     let d1 = distance pos1 pos4
-    let d2 = distance pos4 pos2
-    let d3 = distance pos2 pos3
     let d4 = distance pos3 pos1
 
-    d1 = d2 && d1 = d3 && d1 = d4
-    
+    d1 = d4
 
 let drawLineInGrid (grid:Map<Pos,int>) (line:Line) =
     let streight = isStreight line.From line.To
     let diagonal = isDiagonal line.From line.To 
-
-    // printfn "from: %i,%i -> to: %i,%i\tstreight: %b\t| diagonal: %b" line.From.X line.From.Y line.To.X line.To.Y streight diagonal
 
     match streight || diagonal with
     | false -> grid
