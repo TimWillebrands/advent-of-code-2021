@@ -1,19 +1,23 @@
-// const input = Deno.args[0]
-//     .split(',')
-//     .map(char => Number.parseInt(char))
+const fishies: { [fishAge: number]: number } = {}
+for (let i = 0; i <= 8; ++i){
+    fishies[i] = 0;
+}
 
-// let mutInput = [...input];
+Deno.args[0]
+    .split(',')
+    .map(char => Number.parseInt(char))
+    .forEach(fishAge => fishies[fishAge]++)
 
-// for (let i = 0; i <= 256; ++i){
-//     const newFishies = mutInput.map(fish => --fish);
+for (let i = 0; i <= 256; ++i){
+    const totalFishies = Object.values(fishies).reduce((prev, curr) => prev + curr);
+    console.log(`After ${i} days:\t${totalFishies} fishies`, fishies)
 
-//     newFishies
-//         .filter(fish => fish < 0)
-//         .forEach(_ => newFishies.push(8))
+    const newFishies = fishies[0];
 
-//     const finalFishies = newFishies
-//         .map(fish => fish < 0 ? 6 : fish)
+    for (let j = 0; j <= 7; ++j){
+        fishies[j] = fishies[j + 1];
+    }
 
-//     console.log(`After ${i} days:\t${mutInput.length} fishies`)
-//     mutInput = finalFishies;
-// }
+    fishies[6] += newFishies;
+    fishies[8] = newFishies;
+}
