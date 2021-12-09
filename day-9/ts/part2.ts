@@ -9,12 +9,19 @@
             .split('\n')
             .map(line => [...line].map(vent => Number.parseInt(vent)))
 
-    const width  = input[0].length
+    const width = input[0].length
     const height = input.length
 
     const lowPoints: Pt[] = [];
 
-    const cmpPt = (pt1:Pt, pt2:Pt) => pt1.x === pt2.x && pt1.y === pt2.y
+    const cmpPt = (pt1: Pt, pt2: Pt) => pt1.x === pt2.x && pt1.y === pt2.y
+
+    const getNeighbours = ({x,y}:Pt):Pt[] => [
+        {x: x    , y: y- 1},
+        {x: x    , y: y+ 1},
+        {x: x - 1, y: y   },
+        {x: x + 1, y: y   },
+    ]
 
     const calcNeighbours = (y: number, x: number) => [
         input[y - 1]?.[x] ?? 9,
@@ -23,17 +30,18 @@
         input[y]?.[x + 1] ?? 9,
     ]
 
-    const calcBasinSize = (pt: Pt): number => {
-        const countedNeighbours: Pt[] = [pt];
-        let cpt = pt;
+    const calcBasinSize = (pts: Pt[]): number => {
+        const ignoredNeighbours: Pt[] = [...pts];
     
-        while (true) {
-            const neighbours = calcNeighbours(cpt.x, cpt.y)
-                .filter(npt => countedNeighbours.find(cnpt => cmpPt(npt, cnpt));
+        const isNotIgnored = ((pt:Pt) => !ignoredNeighbours.some(npt => cmpPt(pt, npt)) )
 
-        }
+        const allNeighbours = pts
+            .flatMap(getNeighbours)
+            .filter(isNotIgnored)
 
-        return countedNeighbours.length;
+        console.log(allNeighbours)
+        
+        return allNeighbours.length;
 
     }
     
@@ -50,7 +58,7 @@
     }
     
 
-    const basins = lowPoints.reduce((agg, lowPoint) => [...agg, calcBasinSize(lowPoint)], [] as number[])
+    const basins = lowPoints.reduce((agg, lowPoint) => [...agg, calcBasinSize([lowPoint])], [] as number[])
 
     // console.log('lowPoints:', lowPoints)
     console.log('basins:', basins)
