@@ -7,7 +7,7 @@
     const input =
         Deno.args[0]
             .split('\n')
-            .map(line => [...line].map(vent => Number.parseInt(vent)))
+            .map(line => [...line].map(vent => Number.parseInt(vent)).filter(vent => !Number.isNaN(vent)))
 
     const width = input[0].length
     const height = input.length
@@ -30,19 +30,22 @@
         input[y]?.[x + 1] ?? 9,
     ]
 
+    const isNotContainedIn = (pts: Pt[]) => 
+        (pt:Pt) => !pts.some(npt => cmpPt(pt, npt))
+
     const calcBasinSize = (pts: Pt[]): number => {
-        const ignoredNeighbours: Pt[] = [...pts];
-    
-        const isNotIgnored = ((pt:Pt) => !ignoredNeighbours.some(npt => cmpPt(pt, npt)) )
+        const isNotTooDamnHigh = ({x,y}:Pt) => input[y]?.[x] !== undefined && input[y][x] < 9
 
-        const allNeighbours = pts
+        const newNeighbours = pts
             .flatMap(getNeighbours)
-            .filter(isNotIgnored)
+            .filter(isNotContainedIn(pts))
+            .filter(isNotTooDamnHigh)
+            .filter((pt, i, arr) => arr.findIndex(pt2 => cmpPt(pt, pt2)) === i)
 
-        console.log(allNeighbours)
-        
-        return allNeighbours.length;
-
+        if(newNeighbours.length === 0 )
+            return pts.length
+        else
+            return calcBasinSize([...pts, ...newNeighbours])
     }
     
     for (let x = 0; x < width; ++x)
@@ -52,14 +55,16 @@
         const neighbours = calcNeighbours(y, x)
 
         const ventRelativeHeight = neighbours.reduce((agg, neighbour) => agg += vent < neighbour ? 0 : 1, 0)
-        
+                
         if (ventRelativeHeight === 0)
             lowPoints.push({x,y});
     }
     
+    const answer = lowPoints
+        .reduce((agg, lowPoint) => [...agg, calcBasinSize([lowPoint])], [] as number[])
+        .sort((b1, b2) => b2-b1)
+        .slice(0,3)
+        .reduce((prev, curr) => prev * curr)
 
-    const basins = lowPoints.reduce((agg, lowPoint) => [...agg, calcBasinSize([lowPoint])], [] as number[])
-
-    // console.log('lowPoints:', lowPoints)
-    console.log('basins:', basins)
+    console.log(answer)
 }
