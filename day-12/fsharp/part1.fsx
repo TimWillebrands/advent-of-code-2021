@@ -34,12 +34,9 @@ let rec findRoutes currBlockedCaves routeSoFar currFoundRoutes currentCave =
                 | true -> currBlockedCaves.Add(currentCave)
                 | false -> currBlockedCaves
             
-            let routes = 
-                directions
+            directions
                 |> Set.map (findRoutes blockedCaves route currFoundRoutes)
                 |> Set.fold (+) Set.empty
-
-            routes
 
 let result = findRoutes (Set.empty.Add("start")) [] Set.empty "start"
 result
