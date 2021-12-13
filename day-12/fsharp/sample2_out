@@ -1,0 +1,1444 @@
+0 - 0 = 0 | false
+ <> 
+0 - 0 = 0 | false
+ <> 
+0 - 0 = 0 | false
+ <> 
+1 - 1 = 0 | false
+b <> b
+1 - 1 = 0 | false
+b <> b
+1 - 2 = 1 | false
+b <> b,b
+1 - 2 = 1 | false
+b <> b,b
+1 - 3 = 2 | true
+b <> b,b,b
+1 - 3 = 2 | true
+b <> b,b,b
+1 - 4 = 3 | true
+b <> b,b,b,b
+1 - 4 = 3 | true
+b <> b,b,b,b
+2 - 5 = 3 | true
+c,b <> c,b,b,b,b
+1 - 3 = 2 | true
+b <> b,b,b
+2 - 4 = 2 | true
+c,b <> c,b,b,b
+2 - 4 = 2 | true
+c,b <> c,b,b,b
+2 - 5 = 3 | true
+b,c <> b,c,b,b,b
+1 - 3 = 2 | true
+b <> b,b,b
+2 - 4 = 2 | true
+d,b <> d,b,b,b
+2 - 5 = 3 | true
+b,d <> b,d,b,b,b
+2 - 5 = 3 | true
+b,d <> b,d,b,b,b
+3 - 6 = 3 | true
+c,b,d <> c,b,d,b,b,b
+1 - 2 = 1 | false
+b <> b,b
+2 - 3 = 1 | false
+c,b <> c,b,b
+2 - 3 = 1 | false
+c,b <> c,b,b
+2 - 4 = 2 | true
+b,c <> b,c,b,b
+2 - 4 = 2 | true
+b,c <> b,c,b,b
+2 - 5 = 3 | true
+b,c <> b,b,c,b,b
+2 - 5 = 3 | true
+b,c <> b,b,c,b,b
+2 - 6 = 4 | true
+c,b <> c,b,b,c,b,b
+2 - 4 = 2 | true
+b,c <> b,c,b,b
+2 - 5 = 3 | true
+c,b <> c,b,c,b,b
+2 - 5 = 3 | true
+c,b <> c,b,c,b,b
+2 - 6 = 4 | true
+b,c <> b,c,b,c,b,b
+2 - 4 = 2 | true
+b,c <> b,c,b,b
+3 - 5 = 2 | true
+d,b,c <> d,b,c,b,b
+3 - 6 = 3 | true
+b,d,c <> b,d,b,c,b,b
+3 - 6 = 3 | true
+b,d,c <> b,d,b,c,b,b
+3 - 7 = 4 | true
+c,b,d <> c,b,d,b,c,b,b
+2 - 3 = 1 | false
+c,b <> c,b,b
+2 - 4 = 2 | true
+c,b <> c,c,b,b
+2 - 4 = 2 | true
+c,b <> c,c,b,b
+2 - 5 = 3 | true
+b,c <> b,c,c,b,b
+2 - 5 = 3 | true
+b,c <> b,c,c,b,b
+2 - 6 = 4 | true
+c,b <> c,b,c,c,b,b
+2 - 4 = 2 | true
+c,b <> c,c,b,b
+2 - 5 = 3 | true
+c,b <> c,c,c,b,b
+2 - 5 = 3 | true
+c,b <> c,c,c,b,b
+2 - 6 = 4 | true
+b,c <> b,c,c,c,b,b
+1 - 2 = 1 | false
+b <> b,b
+2 - 3 = 1 | false
+d,b <> d,b,b
+2 - 4 = 2 | true
+b,d <> b,d,b,b
+2 - 4 = 2 | true
+b,d <> b,d,b,b
+2 - 5 = 3 | true
+b,d <> b,b,d,b,b
+2 - 5 = 3 | true
+b,d <> b,b,d,b,b
+3 - 6 = 3 | true
+c,b,d <> c,b,b,d,b,b
+2 - 4 = 2 | true
+b,d <> b,d,b,b
+3 - 5 = 2 | true
+c,b,d <> c,b,d,b,b
+3 - 5 = 2 | true
+c,b,d <> c,b,d,b,b
+3 - 6 = 3 | true
+b,c,d <> b,c,b,d,b,b
+2 - 4 = 2 | true
+b,d <> b,d,b,b
+2 - 5 = 3 | true
+d,b <> d,b,d,b,b
+2 - 6 = 4 | true
+b,d <> b,d,b,d,b,b
+2 - 6 = 4 | true
+b,d <> b,d,b,d,b,b
+3 - 7 = 4 | true
+c,b,d <> c,b,d,b,d,b,b
+1 - 1 = 0 | false
+b <> b
+2 - 2 = 0 | false
+c,b <> c,b
+2 - 2 = 0 | false
+c,b <> c,b
+2 - 3 = 1 | false
+b,c <> b,c,b
+2 - 3 = 1 | false
+b,c <> b,c,b
+2 - 4 = 2 | true
+b,c <> b,b,c,b
+2 - 4 = 2 | true
+b,c <> b,b,c,b
+2 - 5 = 3 | true
+b,c <> b,b,b,c,b
+2 - 5 = 3 | true
+b,c <> b,b,b,c,b
+2 - 6 = 4 | true
+c,b <> c,b,b,b,c,b
+2 - 4 = 2 | true
+b,c <> b,b,c,b
+2 - 5 = 3 | true
+c,b <> c,b,b,c,b
+2 - 5 = 3 | true
+c,b <> c,b,b,c,b
+2 - 6 = 4 | true
+b,c <> b,c,b,b,c,b
+2 - 4 = 2 | true
+b,c <> b,b,c,b
+3 - 5 = 2 | true
+d,b,c <> d,b,b,c,b
+3 - 6 = 3 | true
+b,d,c <> b,d,b,b,c,b
+3 - 6 = 3 | true
+b,d,c <> b,d,b,b,c,b
+3 - 7 = 4 | true
+c,b,d <> c,b,d,b,b,c,b
+2 - 3 = 1 | false
+b,c <> b,c,b
+2 - 4 = 2 | true
+c,b <> c,b,c,b
+2 - 4 = 2 | true
+c,b <> c,b,c,b
+2 - 5 = 3 | true
+b,c <> b,c,b,c,b
+2 - 5 = 3 | true
+b,c <> b,c,b,c,b
+2 - 6 = 4 | true
+c,b <> c,b,c,b,c,b
+2 - 4 = 2 | true
+c,b <> c,b,c,b
+2 - 5 = 3 | true
+c,b <> c,c,b,c,b
+2 - 5 = 3 | true
+c,b <> c,c,b,c,b
+2 - 6 = 4 | true
+b,c <> b,c,c,b,c,b
+2 - 3 = 1 | false
+b,c <> b,c,b
+3 - 4 = 1 | false
+d,b,c <> d,b,c,b
+3 - 5 = 2 | true
+b,d,c <> b,d,b,c,b
+3 - 5 = 2 | true
+b,d,c <> b,d,b,c,b
+3 - 6 = 3 | true
+b,d,c <> b,b,d,b,c,b
+3 - 6 = 3 | true
+b,d,c <> b,b,d,b,c,b
+3 - 7 = 4 | true
+c,b,d <> c,b,b,d,b,c,b
+3 - 5 = 2 | true
+b,d,c <> b,d,b,c,b
+3 - 6 = 3 | true
+c,b,d <> c,b,d,b,c,b
+3 - 6 = 3 | true
+c,b,d <> c,b,d,b,c,b
+3 - 7 = 4 | true
+b,c,d <> b,c,b,d,b,c,b
+3 - 5 = 2 | true
+b,d,c <> b,d,b,c,b
+3 - 6 = 3 | true
+d,b,c <> d,b,d,b,c,b
+3 - 7 = 4 | true
+b,d,c <> b,d,b,d,b,c,b
+3 - 7 = 4 | true
+b,d,c <> b,d,b,d,b,c,b
+3 - 8 = 5 | true
+c,b,d <> c,b,d,b,d,b,c,b
+2 - 2 = 0 | false
+c,b <> c,b
+2 - 3 = 1 | false
+c,b <> c,c,b
+2 - 3 = 1 | false
+c,b <> c,c,b
+2 - 4 = 2 | true
+b,c <> b,c,c,b
+2 - 4 = 2 | true
+b,c <> b,c,c,b
+2 - 5 = 3 | true
+b,c <> b,b,c,c,b
+2 - 5 = 3 | true
+b,c <> b,b,c,c,b
+2 - 6 = 4 | true
+c,b <> c,b,b,c,c,b
+2 - 4 = 2 | true
+b,c <> b,c,c,b
+2 - 5 = 3 | true
+c,b <> c,b,c,c,b
+2 - 5 = 3 | true
+c,b <> c,b,c,c,b
+2 - 6 = 4 | true
+b,c <> b,c,b,c,c,b
+2 - 4 = 2 | true
+b,c <> b,c,c,b
+3 - 5 = 2 | true
+d,b,c <> d,b,c,c,b
+3 - 6 = 3 | true
+b,d,c <> b,d,b,c,c,b
+3 - 6 = 3 | true
+b,d,c <> b,d,b,c,c,b
+3 - 7 = 4 | true
+c,b,d <> c,b,d,b,c,c,b
+2 - 3 = 1 | false
+c,b <> c,c,b
+2 - 4 = 2 | true
+c,b <> c,c,c,b
+2 - 4 = 2 | true
+c,b <> c,c,c,b
+2 - 5 = 3 | true
+b,c <> b,c,c,c,b
+2 - 5 = 3 | true
+b,c <> b,c,c,c,b
+2 - 6 = 4 | true
+c,b <> c,b,c,c,c,b
+2 - 4 = 2 | true
+c,b <> c,c,c,b
+2 - 5 = 3 | true
+c,b <> c,c,c,c,b
+2 - 5 = 3 | true
+c,b <> c,c,c,c,b
+2 - 6 = 4 | true
+b,c <> b,c,c,c,c,b
+1 - 1 = 0 | false
+b <> b
+2 - 2 = 0 | false
+d,b <> d,b
+2 - 3 = 1 | false
+b,d <> b,d,b
+2 - 3 = 1 | false
+b,d <> b,d,b
+2 - 4 = 2 | true
+b,d <> b,b,d,b
+2 - 4 = 2 | true
+b,d <> b,b,d,b
+2 - 5 = 3 | true
+b,d <> b,b,b,d,b
+2 - 5 = 3 | true
+b,d <> b,b,b,d,b
+3 - 6 = 3 | true
+c,b,d <> c,b,b,b,d,b
+2 - 4 = 2 | true
+b,d <> b,b,d,b
+3 - 5 = 2 | true
+c,b,d <> c,b,b,d,b
+3 - 5 = 2 | true
+c,b,d <> c,b,b,d,b
+3 - 6 = 3 | true
+b,c,d <> b,c,b,b,d,b
+2 - 4 = 2 | true
+b,d <> b,b,d,b
+2 - 5 = 3 | true
+d,b <> d,b,b,d,b
+2 - 6 = 4 | true
+b,d <> b,d,b,b,d,b
+2 - 6 = 4 | true
+b,d <> b,d,b,b,d,b
+3 - 7 = 4 | true
+c,b,d <> c,b,d,b,b,d,b
+2 - 3 = 1 | false
+b,d <> b,d,b
+3 - 4 = 1 | false
+c,b,d <> c,b,d,b
+3 - 4 = 1 | false
+c,b,d <> c,b,d,b
+3 - 5 = 2 | true
+b,c,d <> b,c,b,d,b
+3 - 5 = 2 | true
+b,c,d <> b,c,b,d,b
+3 - 6 = 3 | true
+b,c,d <> b,b,c,b,d,b
+3 - 6 = 3 | true
+b,c,d <> b,b,c,b,d,b
+3 - 7 = 4 | true
+c,b,d <> c,b,b,c,b,d,b
+3 - 5 = 2 | true
+b,c,d <> b,c,b,d,b
+3 - 6 = 3 | true
+c,b,d <> c,b,c,b,d,b
+3 - 6 = 3 | true
+c,b,d <> c,b,c,b,d,b
+3 - 7 = 4 | true
+b,c,d <> b,c,b,c,b,d,b
+3 - 5 = 2 | true
+b,c,d <> b,c,b,d,b
+3 - 6 = 3 | true
+d,b,c <> d,b,c,b,d,b
+3 - 7 = 4 | true
+b,d,c <> b,d,b,c,b,d,b
+3 - 7 = 4 | true
+b,d,c <> b,d,b,c,b,d,b
+3 - 8 = 5 | true
+c,b,d <> c,b,d,b,c,b,d,b
+3 - 4 = 1 | false
+c,b,d <> c,b,d,b
+3 - 5 = 2 | true
+c,b,d <> c,c,b,d,b
+3 - 5 = 2 | true
+c,b,d <> c,c,b,d,b
+3 - 6 = 3 | true
+b,c,d <> b,c,c,b,d,b
+3 - 6 = 3 | true
+b,c,d <> b,c,c,b,d,b
+3 - 7 = 4 | true
+c,b,d <> c,b,c,c,b,d,b
+3 - 5 = 2 | true
+c,b,d <> c,c,b,d,b
+3 - 6 = 3 | true
+c,b,d <> c,c,c,b,d,b
+3 - 6 = 3 | true
+c,b,d <> c,c,c,b,d,b
+3 - 7 = 4 | true
+b,c,d <> b,c,c,c,b,d,b
+2 - 3 = 1 | false
+b,d <> b,d,b
+2 - 4 = 2 | true
+d,b <> d,b,d,b
+2 - 5 = 3 | true
+b,d <> b,d,b,d,b
+2 - 5 = 3 | true
+b,d <> b,d,b,d,b
+3 - 6 = 3 | true
+c,b,d <> c,b,d,b,d,b
+0 - 0 = 0 | false
+ <> 
+1 - 1 = 0 | false
+c <> c
+1 - 1 = 0 | false
+c <> c
+2 - 2 = 0 | false
+b,c <> b,c
+2 - 2 = 0 | false
+b,c <> b,c
+2 - 3 = 1 | false
+b,c <> b,b,c
+2 - 3 = 1 | false
+b,c <> b,b,c
+2 - 4 = 2 | true
+b,c <> b,b,b,c
+2 - 4 = 2 | true
+b,c <> b,b,b,c
+2 - 5 = 3 | true
+b,c <> b,b,b,b,c
+2 - 5 = 3 | true
+b,c <> b,b,b,b,c
+2 - 6 = 4 | true
+c,b <> c,b,b,b,b,c
+2 - 4 = 2 | true
+b,c <> b,b,b,c
+2 - 5 = 3 | true
+c,b <> c,b,b,b,c
+2 - 5 = 3 | true
+c,b <> c,b,b,b,c
+2 - 6 = 4 | true
+b,c <> b,c,b,b,b,c
+2 - 4 = 2 | true
+b,c <> b,b,b,c
+3 - 5 = 2 | true
+d,b,c <> d,b,b,b,c
+3 - 6 = 3 | true
+b,d,c <> b,d,b,b,b,c
+3 - 6 = 3 | true
+b,d,c <> b,d,b,b,b,c
+3 - 7 = 4 | true
+c,b,d <> c,b,d,b,b,b,c
+2 - 3 = 1 | false
+b,c <> b,b,c
+2 - 4 = 2 | true
+c,b <> c,b,b,c
+2 - 4 = 2 | true
+c,b <> c,b,b,c
+2 - 5 = 3 | true
+b,c <> b,c,b,b,c
+2 - 5 = 3 | true
+b,c <> b,c,b,b,c
+2 - 6 = 4 | true
+c,b <> c,b,c,b,b,c
+2 - 4 = 2 | true
+c,b <> c,b,b,c
+2 - 5 = 3 | true
+c,b <> c,c,b,b,c
+2 - 5 = 3 | true
+c,b <> c,c,b,b,c
+2 - 6 = 4 | true
+b,c <> b,c,c,b,b,c
+2 - 3 = 1 | false
+b,c <> b,b,c
+3 - 4 = 1 | false
+d,b,c <> d,b,b,c
+3 - 5 = 2 | true
+b,d,c <> b,d,b,b,c
+3 - 5 = 2 | true
+b,d,c <> b,d,b,b,c
+3 - 6 = 3 | true
+b,d,c <> b,b,d,b,b,c
+3 - 6 = 3 | true
+b,d,c <> b,b,d,b,b,c
+3 - 7 = 4 | true
+c,b,d <> c,b,b,d,b,b,c
+3 - 5 = 2 | true
+b,d,c <> b,d,b,b,c
+3 - 6 = 3 | true
+c,b,d <> c,b,d,b,b,c
+3 - 6 = 3 | true
+c,b,d <> c,b,d,b,b,c
+3 - 7 = 4 | true
+b,c,d <> b,c,b,d,b,b,c
+3 - 5 = 2 | true
+b,d,c <> b,d,b,b,c
+3 - 6 = 3 | true
+d,b,c <> d,b,d,b,b,c
+3 - 7 = 4 | true
+b,d,c <> b,d,b,d,b,b,c
+3 - 7 = 4 | true
+b,d,c <> b,d,b,d,b,b,c
+3 - 8 = 5 | true
+c,b,d <> c,b,d,b,d,b,b,c
+2 - 2 = 0 | false
+b,c <> b,c
+2 - 3 = 1 | false
+c,b <> c,b,c
+2 - 3 = 1 | false
+c,b <> c,b,c
+2 - 4 = 2 | true
+b,c <> b,c,b,c
+2 - 4 = 2 | true
+b,c <> b,c,b,c
+2 - 5 = 3 | true
+b,c <> b,b,c,b,c
+2 - 5 = 3 | true
+b,c <> b,b,c,b,c
+2 - 6 = 4 | true
+c,b <> c,b,b,c,b,c
+2 - 4 = 2 | true
+b,c <> b,c,b,c
+2 - 5 = 3 | true
+c,b <> c,b,c,b,c
+2 - 5 = 3 | true
+c,b <> c,b,c,b,c
+2 - 6 = 4 | true
+b,c <> b,c,b,c,b,c
+2 - 4 = 2 | true
+b,c <> b,c,b,c
+3 - 5 = 2 | true
+d,b,c <> d,b,c,b,c
+3 - 6 = 3 | true
+b,d,c <> b,d,b,c,b,c
+3 - 6 = 3 | true
+b,d,c <> b,d,b,c,b,c
+3 - 7 = 4 | true
+c,b,d <> c,b,d,b,c,b,c
+2 - 3 = 1 | false
+c,b <> c,b,c
+2 - 4 = 2 | true
+c,b <> c,c,b,c
+2 - 4 = 2 | true
+c,b <> c,c,b,c
+2 - 5 = 3 | true
+b,c <> b,c,c,b,c
+2 - 5 = 3 | true
+b,c <> b,c,c,b,c
+2 - 6 = 4 | true
+c,b <> c,b,c,c,b,c
+2 - 4 = 2 | true
+c,b <> c,c,b,c
+2 - 5 = 3 | true
+c,b <> c,c,c,b,c
+2 - 5 = 3 | true
+c,b <> c,c,c,b,c
+2 - 6 = 4 | true
+b,c <> b,c,c,c,b,c
+2 - 2 = 0 | false
+b,c <> b,c
+3 - 3 = 0 | false
+d,b,c <> d,b,c
+3 - 4 = 1 | false
+b,d,c <> b,d,b,c
+3 - 4 = 1 | false
+b,d,c <> b,d,b,c
+3 - 5 = 2 | true
+b,d,c <> b,b,d,b,c
+3 - 5 = 2 | true
+b,d,c <> b,b,d,b,c
+3 - 6 = 3 | true
+b,d,c <> b,b,b,d,b,c
+3 - 6 = 3 | true
+b,d,c <> b,b,b,d,b,c
+3 - 7 = 4 | true
+c,b,d <> c,b,b,b,d,b,c
+3 - 5 = 2 | true
+b,d,c <> b,b,d,b,c
+3 - 6 = 3 | true
+c,b,d <> c,b,b,d,b,c
+3 - 6 = 3 | true
+c,b,d <> c,b,b,d,b,c
+3 - 7 = 4 | true
+b,c,d <> b,c,b,b,d,b,c
+3 - 5 = 2 | true
+b,d,c <> b,b,d,b,c
+3 - 6 = 3 | true
+d,b,c <> d,b,b,d,b,c
+3 - 7 = 4 | true
+b,d,c <> b,d,b,b,d,b,c
+3 - 7 = 4 | true
+b,d,c <> b,d,b,b,d,b,c
+3 - 8 = 5 | true
+c,b,d <> c,b,d,b,b,d,b,c
+3 - 4 = 1 | false
+b,d,c <> b,d,b,c
+3 - 5 = 2 | true
+c,b,d <> c,b,d,b,c
+3 - 5 = 2 | true
+c,b,d <> c,b,d,b,c
+3 - 6 = 3 | true
+b,c,d <> b,c,b,d,b,c
+3 - 6 = 3 | true
+b,c,d <> b,c,b,d,b,c
+3 - 7 = 4 | true
+c,b,d <> c,b,c,b,d,b,c
+3 - 5 = 2 | true
+c,b,d <> c,b,d,b,c
+3 - 6 = 3 | true
+c,b,d <> c,c,b,d,b,c
+3 - 6 = 3 | true
+c,b,d <> c,c,b,d,b,c
+3 - 7 = 4 | true
+b,c,d <> b,c,c,b,d,b,c
+3 - 4 = 1 | false
+b,d,c <> b,d,b,c
+3 - 5 = 2 | true
+d,b,c <> d,b,d,b,c
+3 - 6 = 3 | true
+b,d,c <> b,d,b,d,b,c
+3 - 6 = 3 | true
+b,d,c <> b,d,b,d,b,c
+3 - 7 = 4 | true
+c,b,d <> c,b,d,b,d,b,c
+1 - 1 = 0 | false
+c <> c
+1 - 2 = 1 | false
+c <> c,c
+1 - 2 = 1 | false
+c <> c,c
+2 - 3 = 1 | false
+b,c <> b,c,c
+2 - 3 = 1 | false
+b,c <> b,c,c
+2 - 4 = 2 | true
+b,c <> b,b,c,c
+2 - 4 = 2 | true
+b,c <> b,b,c,c
+2 - 5 = 3 | true
+b,c <> b,b,b,c,c
+2 - 5 = 3 | true
+b,c <> b,b,b,c,c
+2 - 6 = 4 | true
+c,b <> c,b,b,b,c,c
+2 - 4 = 2 | true
+b,c <> b,b,c,c
+2 - 5 = 3 | true
+c,b <> c,b,b,c,c
+2 - 5 = 3 | true
+c,b <> c,b,b,c,c
+2 - 6 = 4 | true
+b,c <> b,c,b,b,c,c
+2 - 4 = 2 | true
+b,c <> b,b,c,c
+3 - 5 = 2 | true
+d,b,c <> d,b,b,c,c
+3 - 6 = 3 | true
+b,d,c <> b,d,b,b,c,c
+3 - 6 = 3 | true
+b,d,c <> b,d,b,b,c,c
+3 - 7 = 4 | true
+c,b,d <> c,b,d,b,b,c,c
+2 - 3 = 1 | false
+b,c <> b,c,c
+2 - 4 = 2 | true
+c,b <> c,b,c,c
+2 - 4 = 2 | true
+c,b <> c,b,c,c
+2 - 5 = 3 | true
+b,c <> b,c,b,c,c
+2 - 5 = 3 | true
+b,c <> b,c,b,c,c
+2 - 6 = 4 | true
+c,b <> c,b,c,b,c,c
+2 - 4 = 2 | true
+c,b <> c,b,c,c
+2 - 5 = 3 | true
+c,b <> c,c,b,c,c
+2 - 5 = 3 | true
+c,b <> c,c,b,c,c
+2 - 6 = 4 | true
+b,c <> b,c,c,b,c,c
+2 - 3 = 1 | false
+b,c <> b,c,c
+3 - 4 = 1 | false
+d,b,c <> d,b,c,c
+3 - 5 = 2 | true
+b,d,c <> b,d,b,c,c
+3 - 5 = 2 | true
+b,d,c <> b,d,b,c,c
+3 - 6 = 3 | true
+b,d,c <> b,b,d,b,c,c
+3 - 6 = 3 | true
+b,d,c <> b,b,d,b,c,c
+3 - 7 = 4 | true
+c,b,d <> c,b,b,d,b,c,c
+3 - 5 = 2 | true
+b,d,c <> b,d,b,c,c
+3 - 6 = 3 | true
+c,b,d <> c,b,d,b,c,c
+3 - 6 = 3 | true
+c,b,d <> c,b,d,b,c,c
+3 - 7 = 4 | true
+b,c,d <> b,c,b,d,b,c,c
+3 - 5 = 2 | true
+b,d,c <> b,d,b,c,c
+3 - 6 = 3 | true
+d,b,c <> d,b,d,b,c,c
+3 - 7 = 4 | true
+b,d,c <> b,d,b,d,b,c,c
+3 - 7 = 4 | true
+b,d,c <> b,d,b,d,b,c,c
+3 - 8 = 5 | true
+c,b,d <> c,b,d,b,d,b,c,c
+1 - 2 = 1 | false
+c <> c,c
+1 - 3 = 2 | true
+c <> c,c,c
+1 - 3 = 2 | true
+c <> c,c,c
+2 - 4 = 2 | true
+b,c <> b,c,c,c
+2 - 4 = 2 | true
+b,c <> b,c,c,c
+2 - 5 = 3 | true
+c,b <> c,b,c,c,c
+1 - 3 = 2 | true
+c <> c,c,c
+1 - 4 = 3 | true
+c <> c,c,c,c
+1 - 4 = 3 | true
+c <> c,c,c,c
+2 - 5 = 3 | true
+b,c <> b,c,c,c,c
+0 - 0 = 0 | false
+ <> 
+1 - 1 = 0 | false
+b <> b
+1 - 1 = 0 | false
+b <> b
+1 - 2 = 1 | false
+b <> b,b
+1 - 2 = 1 | false
+b <> b,b
+1 - 3 = 2 | true
+b <> b,b,b
+1 - 3 = 2 | true
+b <> b,b,b
+1 - 4 = 3 | true
+b <> b,b,b,b
+1 - 4 = 3 | true
+b <> b,b,b,b
+2 - 5 = 3 | true
+c,b <> c,b,b,b,b
+1 - 3 = 2 | true
+b <> b,b,b
+2 - 4 = 2 | true
+c,b <> c,b,b,b
+2 - 4 = 2 | true
+c,b <> c,b,b,b
+2 - 5 = 3 | true
+b,c <> b,c,b,b,b
+1 - 3 = 2 | true
+b <> b,b,b
+2 - 4 = 2 | true
+d,b <> d,b,b,b
+2 - 5 = 3 | true
+b,d <> b,d,b,b,b
+2 - 5 = 3 | true
+b,d <> b,d,b,b,b
+3 - 6 = 3 | true
+c,b,d <> c,b,d,b,b,b
+1 - 2 = 1 | false
+b <> b,b
+2 - 3 = 1 | false
+c,b <> c,b,b
+2 - 3 = 1 | false
+c,b <> c,b,b
+2 - 4 = 2 | true
+b,c <> b,c,b,b
+2 - 4 = 2 | true
+b,c <> b,c,b,b
+2 - 5 = 3 | true
+b,c <> b,b,c,b,b
+2 - 5 = 3 | true
+b,c <> b,b,c,b,b
+2 - 6 = 4 | true
+c,b <> c,b,b,c,b,b
+2 - 4 = 2 | true
+b,c <> b,c,b,b
+2 - 5 = 3 | true
+c,b <> c,b,c,b,b
+2 - 5 = 3 | true
+c,b <> c,b,c,b,b
+2 - 6 = 4 | true
+b,c <> b,c,b,c,b,b
+2 - 4 = 2 | true
+b,c <> b,c,b,b
+3 - 5 = 2 | true
+d,b,c <> d,b,c,b,b
+3 - 6 = 3 | true
+b,d,c <> b,d,b,c,b,b
+3 - 6 = 3 | true
+b,d,c <> b,d,b,c,b,b
+3 - 7 = 4 | true
+c,b,d <> c,b,d,b,c,b,b
+2 - 3 = 1 | false
+c,b <> c,b,b
+2 - 4 = 2 | true
+c,b <> c,c,b,b
+2 - 4 = 2 | true
+c,b <> c,c,b,b
+2 - 5 = 3 | true
+b,c <> b,c,c,b,b
+2 - 5 = 3 | true
+b,c <> b,c,c,b,b
+2 - 6 = 4 | true
+c,b <> c,b,c,c,b,b
+2 - 4 = 2 | true
+c,b <> c,c,b,b
+2 - 5 = 3 | true
+c,b <> c,c,c,b,b
+2 - 5 = 3 | true
+c,b <> c,c,c,b,b
+2 - 6 = 4 | true
+b,c <> b,c,c,c,b,b
+1 - 2 = 1 | false
+b <> b,b
+2 - 3 = 1 | false
+d,b <> d,b,b
+2 - 4 = 2 | true
+b,d <> b,d,b,b
+2 - 4 = 2 | true
+b,d <> b,d,b,b
+2 - 5 = 3 | true
+b,d <> b,b,d,b,b
+2 - 5 = 3 | true
+b,d <> b,b,d,b,b
+3 - 6 = 3 | true
+c,b,d <> c,b,b,d,b,b
+2 - 4 = 2 | true
+b,d <> b,d,b,b
+3 - 5 = 2 | true
+c,b,d <> c,b,d,b,b
+3 - 5 = 2 | true
+c,b,d <> c,b,d,b,b
+3 - 6 = 3 | true
+b,c,d <> b,c,b,d,b,b
+2 - 4 = 2 | true
+b,d <> b,d,b,b
+2 - 5 = 3 | true
+d,b <> d,b,d,b,b
+2 - 6 = 4 | true
+b,d <> b,d,b,d,b,b
+2 - 6 = 4 | true
+b,d <> b,d,b,d,b,b
+3 - 7 = 4 | true
+c,b,d <> c,b,d,b,d,b,b
+1 - 1 = 0 | false
+b <> b
+2 - 2 = 0 | false
+c,b <> c,b
+2 - 2 = 0 | false
+c,b <> c,b
+2 - 3 = 1 | false
+b,c <> b,c,b
+2 - 3 = 1 | false
+b,c <> b,c,b
+2 - 4 = 2 | true
+b,c <> b,b,c,b
+2 - 4 = 2 | true
+b,c <> b,b,c,b
+2 - 5 = 3 | true
+b,c <> b,b,b,c,b
+2 - 5 = 3 | true
+b,c <> b,b,b,c,b
+2 - 6 = 4 | true
+c,b <> c,b,b,b,c,b
+2 - 4 = 2 | true
+b,c <> b,b,c,b
+2 - 5 = 3 | true
+c,b <> c,b,b,c,b
+2 - 5 = 3 | true
+c,b <> c,b,b,c,b
+2 - 6 = 4 | true
+b,c <> b,c,b,b,c,b
+2 - 4 = 2 | true
+b,c <> b,b,c,b
+3 - 5 = 2 | true
+d,b,c <> d,b,b,c,b
+3 - 6 = 3 | true
+b,d,c <> b,d,b,b,c,b
+3 - 6 = 3 | true
+b,d,c <> b,d,b,b,c,b
+3 - 7 = 4 | true
+c,b,d <> c,b,d,b,b,c,b
+2 - 3 = 1 | false
+b,c <> b,c,b
+2 - 4 = 2 | true
+c,b <> c,b,c,b
+2 - 4 = 2 | true
+c,b <> c,b,c,b
+2 - 5 = 3 | true
+b,c <> b,c,b,c,b
+2 - 5 = 3 | true
+b,c <> b,c,b,c,b
+2 - 6 = 4 | true
+c,b <> c,b,c,b,c,b
+2 - 4 = 2 | true
+c,b <> c,b,c,b
+2 - 5 = 3 | true
+c,b <> c,c,b,c,b
+2 - 5 = 3 | true
+c,b <> c,c,b,c,b
+2 - 6 = 4 | true
+b,c <> b,c,c,b,c,b
+2 - 3 = 1 | false
+b,c <> b,c,b
+3 - 4 = 1 | false
+d,b,c <> d,b,c,b
+3 - 5 = 2 | true
+b,d,c <> b,d,b,c,b
+3 - 5 = 2 | true
+b,d,c <> b,d,b,c,b
+3 - 6 = 3 | true
+b,d,c <> b,b,d,b,c,b
+3 - 6 = 3 | true
+b,d,c <> b,b,d,b,c,b
+3 - 7 = 4 | true
+c,b,d <> c,b,b,d,b,c,b
+3 - 5 = 2 | true
+b,d,c <> b,d,b,c,b
+3 - 6 = 3 | true
+c,b,d <> c,b,d,b,c,b
+3 - 6 = 3 | true
+c,b,d <> c,b,d,b,c,b
+3 - 7 = 4 | true
+b,c,d <> b,c,b,d,b,c,b
+3 - 5 = 2 | true
+b,d,c <> b,d,b,c,b
+3 - 6 = 3 | true
+d,b,c <> d,b,d,b,c,b
+3 - 7 = 4 | true
+b,d,c <> b,d,b,d,b,c,b
+3 - 7 = 4 | true
+b,d,c <> b,d,b,d,b,c,b
+3 - 8 = 5 | true
+c,b,d <> c,b,d,b,d,b,c,b
+2 - 2 = 0 | false
+c,b <> c,b
+2 - 3 = 1 | false
+c,b <> c,c,b
+2 - 3 = 1 | false
+c,b <> c,c,b
+2 - 4 = 2 | true
+b,c <> b,c,c,b
+2 - 4 = 2 | true
+b,c <> b,c,c,b
+2 - 5 = 3 | true
+b,c <> b,b,c,c,b
+2 - 5 = 3 | true
+b,c <> b,b,c,c,b
+2 - 6 = 4 | true
+c,b <> c,b,b,c,c,b
+2 - 4 = 2 | true
+b,c <> b,c,c,b
+2 - 5 = 3 | true
+c,b <> c,b,c,c,b
+2 - 5 = 3 | true
+c,b <> c,b,c,c,b
+2 - 6 = 4 | true
+b,c <> b,c,b,c,c,b
+2 - 4 = 2 | true
+b,c <> b,c,c,b
+3 - 5 = 2 | true
+d,b,c <> d,b,c,c,b
+3 - 6 = 3 | true
+b,d,c <> b,d,b,c,c,b
+3 - 6 = 3 | true
+b,d,c <> b,d,b,c,c,b
+3 - 7 = 4 | true
+c,b,d <> c,b,d,b,c,c,b
+2 - 3 = 1 | false
+c,b <> c,c,b
+2 - 4 = 2 | true
+c,b <> c,c,c,b
+2 - 4 = 2 | true
+c,b <> c,c,c,b
+2 - 5 = 3 | true
+b,c <> b,c,c,c,b
+2 - 5 = 3 | true
+b,c <> b,c,c,c,b
+2 - 6 = 4 | true
+c,b <> c,b,c,c,c,b
+2 - 4 = 2 | true
+c,b <> c,c,c,b
+2 - 5 = 3 | true
+c,b <> c,c,c,c,b
+2 - 5 = 3 | true
+c,b <> c,c,c,c,b
+2 - 6 = 4 | true
+b,c <> b,c,c,c,c,b
+1 - 1 = 0 | false
+b <> b
+2 - 2 = 0 | false
+d,b <> d,b
+2 - 3 = 1 | false
+b,d <> b,d,b
+2 - 3 = 1 | false
+b,d <> b,d,b
+2 - 4 = 2 | true
+b,d <> b,b,d,b
+2 - 4 = 2 | true
+b,d <> b,b,d,b
+2 - 5 = 3 | true
+b,d <> b,b,b,d,b
+2 - 5 = 3 | true
+b,d <> b,b,b,d,b
+3 - 6 = 3 | true
+c,b,d <> c,b,b,b,d,b
+2 - 4 = 2 | true
+b,d <> b,b,d,b
+3 - 5 = 2 | true
+c,b,d <> c,b,b,d,b
+3 - 5 = 2 | true
+c,b,d <> c,b,b,d,b
+3 - 6 = 3 | true
+b,c,d <> b,c,b,b,d,b
+2 - 4 = 2 | true
+b,d <> b,b,d,b
+2 - 5 = 3 | true
+d,b <> d,b,b,d,b
+2 - 6 = 4 | true
+b,d <> b,d,b,b,d,b
+2 - 6 = 4 | true
+b,d <> b,d,b,b,d,b
+3 - 7 = 4 | true
+c,b,d <> c,b,d,b,b,d,b
+2 - 3 = 1 | false
+b,d <> b,d,b
+3 - 4 = 1 | false
+c,b,d <> c,b,d,b
+3 - 4 = 1 | false
+c,b,d <> c,b,d,b
+3 - 5 = 2 | true
+b,c,d <> b,c,b,d,b
+3 - 5 = 2 | true
+b,c,d <> b,c,b,d,b
+3 - 6 = 3 | true
+b,c,d <> b,b,c,b,d,b
+3 - 6 = 3 | true
+b,c,d <> b,b,c,b,d,b
+3 - 7 = 4 | true
+c,b,d <> c,b,b,c,b,d,b
+3 - 5 = 2 | true
+b,c,d <> b,c,b,d,b
+3 - 6 = 3 | true
+c,b,d <> c,b,c,b,d,b
+3 - 6 = 3 | true
+c,b,d <> c,b,c,b,d,b
+3 - 7 = 4 | true
+b,c,d <> b,c,b,c,b,d,b
+3 - 5 = 2 | true
+b,c,d <> b,c,b,d,b
+3 - 6 = 3 | true
+d,b,c <> d,b,c,b,d,b
+3 - 7 = 4 | true
+b,d,c <> b,d,b,c,b,d,b
+3 - 7 = 4 | true
+b,d,c <> b,d,b,c,b,d,b
+3 - 8 = 5 | true
+c,b,d <> c,b,d,b,c,b,d,b
+3 - 4 = 1 | false
+c,b,d <> c,b,d,b
+3 - 5 = 2 | true
+c,b,d <> c,c,b,d,b
+3 - 5 = 2 | true
+c,b,d <> c,c,b,d,b
+3 - 6 = 3 | true
+b,c,d <> b,c,c,b,d,b
+3 - 6 = 3 | true
+b,c,d <> b,c,c,b,d,b
+3 - 7 = 4 | true
+c,b,d <> c,b,c,c,b,d,b
+3 - 5 = 2 | true
+c,b,d <> c,c,b,d,b
+3 - 6 = 3 | true
+c,b,d <> c,c,c,b,d,b
+3 - 6 = 3 | true
+c,b,d <> c,c,c,b,d,b
+3 - 7 = 4 | true
+b,c,d <> b,c,c,c,b,d,b
+2 - 3 = 1 | false
+b,d <> b,d,b
+2 - 4 = 2 | true
+d,b <> d,b,d,b
+2 - 5 = 3 | true
+b,d <> b,d,b,d,b
+2 - 5 = 3 | true
+b,d <> b,d,b,d,b
+3 - 6 = 3 | true
+c,b,d <> c,b,d,b,d,b
+start,A,b,A,b,A,b,A,b,A,c,A,end
+start,A,b,A,b,A,b,A,b,A,end
+start,A,b,A,b,A,b,A,b,end
+start,A,b,A,b,A,b,A,c,A,b,A,end
+start,A,b,A,b,A,b,A,c,A,b,end
+start,A,b,A,b,A,b,A,c,A,end
+start,A,b,A,b,A,b,A,end
+start,A,b,A,b,A,b,d,b,A,c,A,end
+start,A,b,A,b,A,b,d,b,A,end
+start,A,b,A,b,A,b,d,b,end
+start,A,b,A,b,A,b,end
+start,A,b,A,b,A,c,A,b,A,b,A,c,A,end
+start,A,b,A,b,A,c,A,b,A,b,A,end
+start,A,b,A,b,A,c,A,b,A,b,end
+start,A,b,A,b,A,c,A,b,A,c,A,b,A,end
+start,A,b,A,b,A,c,A,b,A,c,A,b,end
+start,A,b,A,b,A,c,A,b,A,c,A,end
+start,A,b,A,b,A,c,A,b,A,end
+start,A,b,A,b,A,c,A,b,d,b,A,c,A,end
+start,A,b,A,b,A,c,A,b,d,b,A,end
+start,A,b,A,b,A,c,A,b,d,b,end
+start,A,b,A,b,A,c,A,b,end
+start,A,b,A,b,A,c,A,c,A,b,A,c,A,end
+start,A,b,A,b,A,c,A,c,A,b,A,end
+start,A,b,A,b,A,c,A,c,A,b,end
+start,A,b,A,b,A,c,A,c,A,c,A,b,A,end
+start,A,b,A,b,A,c,A,c,A,c,A,b,end
+start,A,b,A,b,A,c,A,c,A,c,A,end
+start,A,b,A,b,A,c,A,c,A,end
+start,A,b,A,b,A,c,A,end
+start,A,b,A,b,A,end
+start,A,b,A,b,d,b,A,b,A,c,A,end
+start,A,b,A,b,d,b,A,b,A,end
+start,A,b,A,b,d,b,A,b,end
+start,A,b,A,b,d,b,A,c,A,b,A,end
+start,A,b,A,b,d,b,A,c,A,b,end
+start,A,b,A,b,d,b,A,c,A,end
+start,A,b,A,b,d,b,A,end
+start,A,b,A,b,d,b,d,b,A,c,A,end
+start,A,b,A,b,d,b,d,b,A,end
+start,A,b,A,b,d,b,d,b,end
+start,A,b,A,b,d,b,end
+start,A,b,A,b,end
+start,A,b,A,c,A,b,A,b,A,b,A,c,A,end
+start,A,b,A,c,A,b,A,b,A,b,A,end
+start,A,b,A,c,A,b,A,b,A,b,end
+start,A,b,A,c,A,b,A,b,A,c,A,b,A,end
+start,A,b,A,c,A,b,A,b,A,c,A,b,end
+start,A,b,A,c,A,b,A,b,A,c,A,end
+start,A,b,A,c,A,b,A,b,A,end
+start,A,b,A,c,A,b,A,b,d,b,A,c,A,end
+start,A,b,A,c,A,b,A,b,d,b,A,end
+start,A,b,A,c,A,b,A,b,d,b,end
+start,A,b,A,c,A,b,A,b,end
+start,A,b,A,c,A,b,A,c,A,b,A,c,A,end
+start,A,b,A,c,A,b,A,c,A,b,A,end
+start,A,b,A,c,A,b,A,c,A,b,end
+start,A,b,A,c,A,b,A,c,A,c,A,b,A,end
+start,A,b,A,c,A,b,A,c,A,c,A,b,end
+start,A,b,A,c,A,b,A,c,A,c,A,end
+start,A,b,A,c,A,b,A,c,A,end
+start,A,b,A,c,A,b,A,end
+start,A,b,A,c,A,b,d,b,A,b,A,c,A,end
+start,A,b,A,c,A,b,d,b,A,b,A,end
+start,A,b,A,c,A,b,d,b,A,b,end
+start,A,b,A,c,A,b,d,b,A,c,A,b,A,end
+start,A,b,A,c,A,b,d,b,A,c,A,b,end
+start,A,b,A,c,A,b,d,b,A,c,A,end
+start,A,b,A,c,A,b,d,b,A,end
+start,A,b,A,c,A,b,d,b,d,b,A,c,A,end
+start,A,b,A,c,A,b,d,b,d,b,A,end
+start,A,b,A,c,A,b,d,b,d,b,end
+start,A,b,A,c,A,b,d,b,end
+start,A,b,A,c,A,b,end
+start,A,b,A,c,A,c,A,b,A,b,A,c,A,end
+start,A,b,A,c,A,c,A,b,A,b,A,end
+start,A,b,A,c,A,c,A,b,A,b,end
+start,A,b,A,c,A,c,A,b,A,c,A,b,A,end
+start,A,b,A,c,A,c,A,b,A,c,A,b,end
+start,A,b,A,c,A,c,A,b,A,c,A,end
+start,A,b,A,c,A,c,A,b,A,end
+start,A,b,A,c,A,c,A,b,d,b,A,c,A,end
+start,A,b,A,c,A,c,A,b,d,b,A,end
+start,A,b,A,c,A,c,A,b,d,b,end
+start,A,b,A,c,A,c,A,b,end
+start,A,b,A,c,A,c,A,c,A,b,A,c,A,end
+start,A,b,A,c,A,c,A,c,A,b,A,end
+start,A,b,A,c,A,c,A,c,A,b,end
+start,A,b,A,c,A,c,A,c,A,c,A,b,A,end
+start,A,b,A,c,A,c,A,c,A,c,A,b,end
+start,A,b,A,c,A,c,A,c,A,c,A,end
+start,A,b,A,c,A,c,A,c,A,end
+start,A,b,A,c,A,c,A,end
+start,A,b,A,c,A,end
+start,A,b,A,end
+start,A,b,d,b,A,b,A,b,A,c,A,end
+start,A,b,d,b,A,b,A,b,A,end
+start,A,b,d,b,A,b,A,b,end
+start,A,b,d,b,A,b,A,c,A,b,A,end
+start,A,b,d,b,A,b,A,c,A,b,end
+start,A,b,d,b,A,b,A,c,A,end
+start,A,b,d,b,A,b,A,end
+start,A,b,d,b,A,b,d,b,A,c,A,end
+start,A,b,d,b,A,b,d,b,A,end
+start,A,b,d,b,A,b,d,b,end
+start,A,b,d,b,A,b,end
+start,A,b,d,b,A,c,A,b,A,b,A,c,A,end
+start,A,b,d,b,A,c,A,b,A,b,A,end
+start,A,b,d,b,A,c,A,b,A,b,end
+start,A,b,d,b,A,c,A,b,A,c,A,b,A,end
+start,A,b,d,b,A,c,A,b,A,c,A,b,end
+start,A,b,d,b,A,c,A,b,A,c,A,end
+start,A,b,d,b,A,c,A,b,A,end
+start,A,b,d,b,A,c,A,b,d,b,A,c,A,end
+start,A,b,d,b,A,c,A,b,d,b,A,end
+start,A,b,d,b,A,c,A,b,d,b,end
+start,A,b,d,b,A,c,A,b,end
+start,A,b,d,b,A,c,A,c,A,b,A,c,A,end
+start,A,b,d,b,A,c,A,c,A,b,A,end
+start,A,b,d,b,A,c,A,c,A,b,end
+start,A,b,d,b,A,c,A,c,A,c,A,b,A,end
+start,A,b,d,b,A,c,A,c,A,c,A,b,end
+start,A,b,d,b,A,c,A,c,A,c,A,end
+start,A,b,d,b,A,c,A,c,A,end
+start,A,b,d,b,A,c,A,end
+start,A,b,d,b,A,end
+start,A,b,d,b,d,b,A,c,A,end
+start,A,b,d,b,d,b,A,end
+start,A,b,d,b,d,b,end
+start,A,b,d,b,end
+start,A,b,end
+start,A,c,A,b,A,b,A,b,A,b,A,c,A,end
+start,A,c,A,b,A,b,A,b,A,b,A,end
+start,A,c,A,b,A,b,A,b,A,b,end
+start,A,c,A,b,A,b,A,b,A,c,A,b,A,end
+start,A,c,A,b,A,b,A,b,A,c,A,b,end
+start,A,c,A,b,A,b,A,b,A,c,A,end
+start,A,c,A,b,A,b,A,b,A,end
+start,A,c,A,b,A,b,A,b,d,b,A,c,A,end
+start,A,c,A,b,A,b,A,b,d,b,A,end
+start,A,c,A,b,A,b,A,b,d,b,end
+start,A,c,A,b,A,b,A,b,end
+start,A,c,A,b,A,b,A,c,A,b,A,c,A,end
+start,A,c,A,b,A,b,A,c,A,b,A,end
+start,A,c,A,b,A,b,A,c,A,b,end
+start,A,c,A,b,A,b,A,c,A,c,A,b,A,end
+start,A,c,A,b,A,b,A,c,A,c,A,b,end
+start,A,c,A,b,A,b,A,c,A,c,A,end
+start,A,c,A,b,A,b,A,c,A,end
+start,A,c,A,b,A,b,A,end
+start,A,c,A,b,A,b,d,b,A,b,A,c,A,end
+start,A,c,A,b,A,b,d,b,A,b,A,end
+start,A,c,A,b,A,b,d,b,A,b,end
+start,A,c,A,b,A,b,d,b,A,c,A,b,A,end
+start,A,c,A,b,A,b,d,b,A,c,A,b,end
+start,A,c,A,b,A,b,d,b,A,c,A,end
+start,A,c,A,b,A,b,d,b,A,end
+start,A,c,A,b,A,b,d,b,d,b,A,c,A,end
+start,A,c,A,b,A,b,d,b,d,b,A,end
+start,A,c,A,b,A,b,d,b,d,b,end
+start,A,c,A,b,A,b,d,b,end
+start,A,c,A,b,A,b,end
+start,A,c,A,b,A,c,A,b,A,b,A,c,A,end
+start,A,c,A,b,A,c,A,b,A,b,A,end
+start,A,c,A,b,A,c,A,b,A,b,end
+start,A,c,A,b,A,c,A,b,A,c,A,b,A,end
+start,A,c,A,b,A,c,A,b,A,c,A,b,end
+start,A,c,A,b,A,c,A,b,A,c,A,end
+start,A,c,A,b,A,c,A,b,A,end
+start,A,c,A,b,A,c,A,b,d,b,A,c,A,end
+start,A,c,A,b,A,c,A,b,d,b,A,end
+start,A,c,A,b,A,c,A,b,d,b,end
+start,A,c,A,b,A,c,A,b,end
+start,A,c,A,b,A,c,A,c,A,b,A,c,A,end
+start,A,c,A,b,A,c,A,c,A,b,A,end
+start,A,c,A,b,A,c,A,c,A,b,end
+start,A,c,A,b,A,c,A,c,A,c,A,b,A,end
+start,A,c,A,b,A,c,A,c,A,c,A,b,end
+start,A,c,A,b,A,c,A,c,A,c,A,end
+start,A,c,A,b,A,c,A,c,A,end
+start,A,c,A,b,A,c,A,end
+start,A,c,A,b,A,end
+start,A,c,A,b,d,b,A,b,A,b,A,c,A,end
+start,A,c,A,b,d,b,A,b,A,b,A,end
+start,A,c,A,b,d,b,A,b,A,b,end
+start,A,c,A,b,d,b,A,b,A,c,A,b,A,end
+start,A,c,A,b,d,b,A,b,A,c,A,b,end
+start,A,c,A,b,d,b,A,b,A,c,A,end
+start,A,c,A,b,d,b,A,b,A,end
+start,A,c,A,b,d,b,A,b,d,b,A,c,A,end
+start,A,c,A,b,d,b,A,b,d,b,A,end
+start,A,c,A,b,d,b,A,b,d,b,end
+start,A,c,A,b,d,b,A,b,end
+start,A,c,A,b,d,b,A,c,A,b,A,c,A,end
+start,A,c,A,b,d,b,A,c,A,b,A,end
+start,A,c,A,b,d,b,A,c,A,b,end
+start,A,c,A,b,d,b,A,c,A,c,A,b,A,end
+start,A,c,A,b,d,b,A,c,A,c,A,b,end
+start,A,c,A,b,d,b,A,c,A,c,A,end
+start,A,c,A,b,d,b,A,c,A,end
+start,A,c,A,b,d,b,A,end
+start,A,c,A,b,d,b,d,b,A,c,A,end
+start,A,c,A,b,d,b,d,b,A,end
+start,A,c,A,b,d,b,d,b,end
+start,A,c,A,b,d,b,end
+start,A,c,A,b,end
+start,A,c,A,c,A,b,A,b,A,b,A,c,A,end
+start,A,c,A,c,A,b,A,b,A,b,A,end
+start,A,c,A,c,A,b,A,b,A,b,end
+start,A,c,A,c,A,b,A,b,A,c,A,b,A,end
+start,A,c,A,c,A,b,A,b,A,c,A,b,end
+start,A,c,A,c,A,b,A,b,A,c,A,end
+start,A,c,A,c,A,b,A,b,A,end
+start,A,c,A,c,A,b,A,b,d,b,A,c,A,end
+start,A,c,A,c,A,b,A,b,d,b,A,end
+start,A,c,A,c,A,b,A,b,d,b,end
+start,A,c,A,c,A,b,A,b,end
+start,A,c,A,c,A,b,A,c,A,b,A,c,A,end
+start,A,c,A,c,A,b,A,c,A,b,A,end
+start,A,c,A,c,A,b,A,c,A,b,end
+start,A,c,A,c,A,b,A,c,A,c,A,b,A,end
+start,A,c,A,c,A,b,A,c,A,c,A,b,end
+start,A,c,A,c,A,b,A,c,A,c,A,end
+start,A,c,A,c,A,b,A,c,A,end
+start,A,c,A,c,A,b,A,end
+start,A,c,A,c,A,b,d,b,A,b,A,c,A,end
+start,A,c,A,c,A,b,d,b,A,b,A,end
+start,A,c,A,c,A,b,d,b,A,b,end
+start,A,c,A,c,A,b,d,b,A,c,A,b,A,end
+start,A,c,A,c,A,b,d,b,A,c,A,b,end
+start,A,c,A,c,A,b,d,b,A,c,A,end
+start,A,c,A,c,A,b,d,b,A,end
+start,A,c,A,c,A,b,d,b,d,b,A,c,A,end
+start,A,c,A,c,A,b,d,b,d,b,A,end
+start,A,c,A,c,A,b,d,b,d,b,end
+start,A,c,A,c,A,b,d,b,end
+start,A,c,A,c,A,b,end
+start,A,c,A,c,A,c,A,b,A,c,A,end
+start,A,c,A,c,A,c,A,b,A,end
+start,A,c,A,c,A,c,A,b,end
+start,A,c,A,c,A,c,A,c,A,b,A,end
+start,A,c,A,c,A,c,A,c,A,b,end
+start,A,c,A,c,A,c,A,c,A,end
+start,A,c,A,c,A,c,A,end
+start,A,c,A,c,A,end
+start,A,c,A,end
+start,A,end
+start,b,A,b,A,b,A,b,A,c,A,end
+start,b,A,b,A,b,A,b,A,end
+start,b,A,b,A,b,A,b,end
+start,b,A,b,A,b,A,c,A,b,A,end
+start,b,A,b,A,b,A,c,A,b,end
+start,b,A,b,A,b,A,c,A,end
+start,b,A,b,A,b,A,end
+start,b,A,b,A,b,d,b,A,c,A,end
+start,b,A,b,A,b,d,b,A,end
+start,b,A,b,A,b,d,b,end
+start,b,A,b,A,b,end
+start,b,A,b,A,c,A,b,A,b,A,c,A,end
+start,b,A,b,A,c,A,b,A,b,A,end
+start,b,A,b,A,c,A,b,A,b,end
+start,b,A,b,A,c,A,b,A,c,A,b,A,end
+start,b,A,b,A,c,A,b,A,c,A,b,end
+start,b,A,b,A,c,A,b,A,c,A,end
+start,b,A,b,A,c,A,b,A,end
+start,b,A,b,A,c,A,b,d,b,A,c,A,end
+start,b,A,b,A,c,A,b,d,b,A,end
+start,b,A,b,A,c,A,b,d,b,end
+start,b,A,b,A,c,A,b,end
+start,b,A,b,A,c,A,c,A,b,A,c,A,end
+start,b,A,b,A,c,A,c,A,b,A,end
+start,b,A,b,A,c,A,c,A,b,end
+start,b,A,b,A,c,A,c,A,c,A,b,A,end
+start,b,A,b,A,c,A,c,A,c,A,b,end
+start,b,A,b,A,c,A,c,A,c,A,end
+start,b,A,b,A,c,A,c,A,end
+start,b,A,b,A,c,A,end
+start,b,A,b,A,end
+start,b,A,b,d,b,A,b,A,c,A,end
+start,b,A,b,d,b,A,b,A,end
+start,b,A,b,d,b,A,b,end
+start,b,A,b,d,b,A,c,A,b,A,end
+start,b,A,b,d,b,A,c,A,b,end
+start,b,A,b,d,b,A,c,A,end
+start,b,A,b,d,b,A,end
+start,b,A,b,d,b,d,b,A,c,A,end
+start,b,A,b,d,b,d,b,A,end
+start,b,A,b,d,b,d,b,end
+start,b,A,b,d,b,end
+start,b,A,b,end
+start,b,A,c,A,b,A,b,A,b,A,c,A,end
+start,b,A,c,A,b,A,b,A,b,A,end
+start,b,A,c,A,b,A,b,A,b,end
+start,b,A,c,A,b,A,b,A,c,A,b,A,end
+start,b,A,c,A,b,A,b,A,c,A,b,end
+start,b,A,c,A,b,A,b,A,c,A,end
+start,b,A,c,A,b,A,b,A,end
+start,b,A,c,A,b,A,b,d,b,A,c,A,end
+start,b,A,c,A,b,A,b,d,b,A,end
+start,b,A,c,A,b,A,b,d,b,end
+start,b,A,c,A,b,A,b,end
+start,b,A,c,A,b,A,c,A,b,A,c,A,end
+start,b,A,c,A,b,A,c,A,b,A,end
+start,b,A,c,A,b,A,c,A,b,end
+start,b,A,c,A,b,A,c,A,c,A,b,A,end
+start,b,A,c,A,b,A,c,A,c,A,b,end
+start,b,A,c,A,b,A,c,A,c,A,end
+start,b,A,c,A,b,A,c,A,end
+start,b,A,c,A,b,A,end
+start,b,A,c,A,b,d,b,A,b,A,c,A,end
+start,b,A,c,A,b,d,b,A,b,A,end
+start,b,A,c,A,b,d,b,A,b,end
+start,b,A,c,A,b,d,b,A,c,A,b,A,end
+start,b,A,c,A,b,d,b,A,c,A,b,end
+start,b,A,c,A,b,d,b,A,c,A,end
+start,b,A,c,A,b,d,b,A,end
+start,b,A,c,A,b,d,b,d,b,A,c,A,end
+start,b,A,c,A,b,d,b,d,b,A,end
+start,b,A,c,A,b,d,b,d,b,end
+start,b,A,c,A,b,d,b,end
+start,b,A,c,A,b,end
+start,b,A,c,A,c,A,b,A,b,A,c,A,end
+start,b,A,c,A,c,A,b,A,b,A,end
+start,b,A,c,A,c,A,b,A,b,end
+start,b,A,c,A,c,A,b,A,c,A,b,A,end
+start,b,A,c,A,c,A,b,A,c,A,b,end
+start,b,A,c,A,c,A,b,A,c,A,end
+start,b,A,c,A,c,A,b,A,end
+start,b,A,c,A,c,A,b,d,b,A,c,A,end
+start,b,A,c,A,c,A,b,d,b,A,end
+start,b,A,c,A,c,A,b,d,b,end
+start,b,A,c,A,c,A,b,end
+start,b,A,c,A,c,A,c,A,b,A,c,A,end
+start,b,A,c,A,c,A,c,A,b,A,end
+start,b,A,c,A,c,A,c,A,b,end
+start,b,A,c,A,c,A,c,A,c,A,b,A,end
+start,b,A,c,A,c,A,c,A,c,A,b,end
+start,b,A,c,A,c,A,c,A,c,A,end
+start,b,A,c,A,c,A,c,A,end
+start,b,A,c,A,c,A,end
+start,b,A,c,A,end
+start,b,A,end
+start,b,d,b,A,b,A,b,A,c,A,end
+start,b,d,b,A,b,A,b,A,end
+start,b,d,b,A,b,A,b,end
+start,b,d,b,A,b,A,c,A,b,A,end
+start,b,d,b,A,b,A,c,A,b,end
+start,b,d,b,A,b,A,c,A,end
+start,b,d,b,A,b,A,end
+start,b,d,b,A,b,d,b,A,c,A,end
+start,b,d,b,A,b,d,b,A,end
+start,b,d,b,A,b,d,b,end
+start,b,d,b,A,b,end
+start,b,d,b,A,c,A,b,A,b,A,c,A,end
+start,b,d,b,A,c,A,b,A,b,A,end
+start,b,d,b,A,c,A,b,A,b,end
+start,b,d,b,A,c,A,b,A,c,A,b,A,end
+start,b,d,b,A,c,A,b,A,c,A,b,end
+start,b,d,b,A,c,A,b,A,c,A,end
+start,b,d,b,A,c,A,b,A,end
+start,b,d,b,A,c,A,b,d,b,A,c,A,end
+start,b,d,b,A,c,A,b,d,b,A,end
+start,b,d,b,A,c,A,b,d,b,end
+start,b,d,b,A,c,A,b,end
+start,b,d,b,A,c,A,c,A,b,A,c,A,end
+start,b,d,b,A,c,A,c,A,b,A,end
+start,b,d,b,A,c,A,c,A,b,end
+start,b,d,b,A,c,A,c,A,c,A,b,A,end
+start,b,d,b,A,c,A,c,A,c,A,b,end
+start,b,d,b,A,c,A,c,A,c,A,end
+start,b,d,b,A,c,A,c,A,end
+start,b,d,b,A,c,A,end
+start,b,d,b,A,end
+start,b,d,b,d,b,A,c,A,end
+start,b,d,b,d,b,A,end
+start,b,d,b,d,b,end
+start,b,d,b,end
+start,b,end
+
+Found routes: 378
