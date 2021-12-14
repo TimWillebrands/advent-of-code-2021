@@ -15,14 +15,9 @@ const rules = rawInput
     }, {} as HashMap<string>);
 
 const idk = (base: string, cycle:number, cycles: number):string => {
-    let result = "";
-    let lastHit = -999;
+    let result = base[0];
     
     for (let i = 0; i < base.length - 1; i++) {
-        if (lastHit !== (i - 1)) {
-            result += base[i]
-        }
-        lastHit = i;
         result += rules[base[i] + base[i + 1]] ?? ''
         result += base[i + 1]
     }
@@ -39,7 +34,7 @@ const elements = [...'ABCDEFGHIJKLMNOPQRSTUVWXYZ']
         return elements;
     }, {} as HashMap<number>);
 
-[...idk(input, 1, 40)].forEach(char => elements[char]++)
+[...idk(input, 1, 10)].forEach(char => elements[char]++)
 
 const stuff = Object.values(elements)
     .filter(value => value !== 0)
