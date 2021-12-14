@@ -49,7 +49,7 @@ const agg = rawInput
         return rules;
     }, {} as HashMap<number>);
 
-const polymer = idk(agg, 1, 10)
+const polymer = idk(agg, 1, 40)
 
 const elements = [...'ABCDEFGHIJKLMNOPQRSTUVWXYZ']
     .reduce((elements, char) => {
@@ -61,11 +61,10 @@ Object.keys(polymer)
     .forEach(key => {
         const value = polymer[key]
         elements[key[0]] += value
-        elements[key[1]] += value
     })
 
 const stuff = Object.values(elements)
     .filter(value => value !== 0)
     .sort((a,b) => a - b)
 
-console.log(stuff[0], stuff[stuff.length-1], stuff[stuff.length-1] - stuff[0])
+console.log(stuff[0], stuff[stuff.length-1], stuff[stuff.length-1] - stuff[0] + 1)
